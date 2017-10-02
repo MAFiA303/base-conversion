@@ -39,3 +39,5 @@ newBase('1qaN4<KB',93,10,True)
 asc2text(77065070105065)
 'MAFiA'
 ```
+### More options:
+You can shuffle the basenumbers. This is currently commented out
