@@ -18,3 +18,18 @@ minBase('saad')
 newBase('saad',29,22)
 '2kkkd'
 ```
+
+## Cyphering options:
+
+###### Change a word to ascii
+```python
+text2asc('MAFiA')
+'077065070105065'
+```
+###### Change output to a new base
+```python
+maxBase
+93
+newBase('077065070105065',10,93)
+1qaN4<KB
+```
