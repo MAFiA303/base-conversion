@@ -15,6 +15,6 @@ newBase(303,10,2)
 ```python
 minBase('saad')
 29
-newBase('saad',29,2)
-'10101000110110010101'
+newBase('saad',29,22)
+'2kkkd'
 ```
