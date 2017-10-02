@@ -1,13 +1,12 @@
 # base-conversion
 change numbers between different bases
 ```python
-newbase(number,old base, new base)
+newbase(number,old base, new base,case senitive bool)
 ```
 ###### example: Change number 303 from base 10 to base 2
 
 ```python
 newBase(303,10,2)
-#output is a string:
 '100101111'
 ```
 
@@ -31,5 +30,12 @@ text2asc('MAFiA')
 maxBase
 93
 newBase('077065070105065',10,93)
-1qaN4<KB
+'1qaN4<KB'
+```
+##### Decypher
+```python
+newBase('1qaN4<KB',93,10,True)
+77065070105065
+asc2text(77065070105065)
+'MAFiA'
 ```
