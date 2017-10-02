@@ -53,3 +53,28 @@ def newBase(n,base, nbase,caseSEnsitive = False):
         dec =  basebase[r] + dec
     dec = basebase[m] + dec
     return dec
+
+# =============================================================================
+#change text to ascii
+# =============================================================================
+def text2asc(txt):
+    txt = str(txt)
+    asc = ""
+    for i in range(0,len(txt),1):
+        asc += ("%03d" % (ord(txt[i]),))
+    return asc
+
+
+# =============================================================================
+#from ascii to text
+# =============================================================================
+def asc2text(asc):
+    asc = str(asc)
+    left0= len(asc)%3
+    if( left0 != 0):
+        asc = "0"*(3-left0) + asc
+    txt = ""
+    for i in range(0,len(asc),3):
+        txt += chr(int(asc[i:i+3]))
+    return txt
+
