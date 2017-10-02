@@ -1,7 +1,7 @@
 # base-conversion
 change numbers between different bases
 ```python
-newbase(inout int or str,old base int, new base int,case senitive bool)
+newbase(input,old base, new base,case senitive)
 ```
 ###### example: Change number 303 from base 10 to base 2
 
